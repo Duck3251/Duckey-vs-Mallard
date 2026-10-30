@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Duckey vs Mallard</title>
+
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+
+<body>
+
+    <canvas
+        id="game"
+        width="1280"
+        height="720">
+    </canvas>
+
+    <script>
+
+        const canvas =
+            document.getElementById("game");
+
+        const ctx =
+            canvas.getContext("2d");
+
+        let currentScreen = "device";
+
+        let selectedDevice = null;
+
+    </script>
+
+    <script src="Menu/DeviceSelect.js"></script>
+    <script src="Menu/Menu.js"></script>
+
+    <script src="js/Controls.js"></script>
+    <script src="js/Duckey.js"></script>
+    <script src="js/Mallard.js"></script>
+    <script src="js/Main.js"></script>
+
+</body>
+
+</html>
